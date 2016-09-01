@@ -1,10 +1,10 @@
 package org.stjs.bridge.redux;
 
-import org.stjs.javascript.annotation.SyntheticType;
+import org.stjs.javascript.annotation.STJSBridge;
 
 /**
  * Marker interface for Redux state
  */
-@SyntheticType
+@STJSBridge
 public interface State {
 }
